@@ -79,9 +79,14 @@ ul li {
   padding-left: 50px;
   justify-content: center;
   align-items: center;
-  
 }
 
 .output .fa-times:hover {
   color: rgb(224, 21, 21);
+}
+
+@media (min-width: 533px) {
+  .container {
+    width: 33%;
+  }
 }
